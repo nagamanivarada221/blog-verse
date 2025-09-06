@@ -53,6 +53,10 @@ let result=myAge>=18?"eligible to vote":"you cannot vote"
 console.log(result)
 //increament and decreament operators
 let count=5;
-consol.log(count++)
-consol.log(count)
+console.log(count++)
+console.log(count)
 console.log(++count)
+// type of operators
+console.log(typeof count)
+console.log(typeof "mani")
+console.log(typeof 18)
