@@ -51,10 +51,10 @@ for(i=1;i<=10;i++)
 let n=5;
 let b=1;
 let sum=0;
-while(i<=n)
+while(b<=n)
 {
     sum+=b;
-    i++;
+    b++;
 }
 console.log("sum:",sum)
 //
@@ -75,4 +75,17 @@ let person={
 for(let key in person)
 {
     console.log(`${key}:${person[key]}`)
+}
+for(let i=5;i>=0;i--)
+{
+    if(i===3)
+    {
+        continue;
+
+    }
+    else if(i===2)
+        {
+            break
+        }
+    console.log(i)
 }
